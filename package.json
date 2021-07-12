@@ -1,31 +1,28 @@
 {
-  "name": "whatsapp-bot",
+  "name": "whatsappbot-nodejs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "axios": "^0.21.1",
-    "cors": "^2.8.5",
-    "expres": "^0.0.5",
-    "express": "^4.17.1",
-    "gtts": "^0.2.1",
-    "qrcode-terminal": "^0.12.0",
-    "request": "^2.88.2",
-    "save": "^2.4.0",
-    "whatsapp-web.js": "^1.12.6"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RafaelDomenegueti/WhatsAppBot-NODEJS.git"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/RafaelDomenegueti/WhatsAppBot-NODEJS/issues"
   },
-  "homepage": "https://github.com/RafaelDomenegueti/WhatsAppBot-NODEJS#readme"
+  "homepage": "https://github.com/RafaelDomenegueti/WhatsAppBot-NODEJS#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "gtts": "^0.2.1",
+    "qrcode": "^1.4.4",
+    "qrcode-terminal": "^0.12.0",
+    "request": "^2.88.2",
+    "whatsapp-web.js": "^1.13.2"
+  }
 }
